@@ -1,0 +1,15 @@
+
+@media (min-width:1000px){
+.summery-status-container ul{
+  border-right:.1rem solid #fff;   
+}
+}
+@media (max-width: 600px){
+  /* body{display:flex;
+  flex-flow:column;
+  justify-content:center;
+  } */
+h1{font-size:5rem;text-align: center;}
+.summery-status-container ul{padding-bottom:4rem;}
+}
+

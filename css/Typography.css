@@ -1,0 +1,87 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=+LiAbhayabre:wght@400;500&family=Allan&family=Gabriela&family=Raleway:wght@300&display=swap');
+
+h1{
+      font-size:10rem;
+      font-family: 'Abhaya Libre',serif;
+      font-weight:400;
+    }
+    h2{
+      font-family: 'Abhaya Libre',serif;
+      font-size:6rem;
+      text-align: center;
+      font-weight: lighter;
+      text-transform: capitalize;
+      
+    }
+    h3{
+      font-size:5rem;
+      text-align: center;
+    }
+    h4{
+      font-size:3.5rem;
+      text-align: center;
+      letter-spacing:0.25rem;
+      color:var(--teva-blue-darker);
+      
+    }
+    h5{
+      font-size:2.4rem;
+      text-align: center;
+      text-transform:uppercase;
+      color:var(--shiny-green);
+    }
+    /* style for h5 box title on the front image of the device */
+    .box-title.ready h5{
+      color:var(--light-gray-3);
+      letter-spacing:0.5rem;
+        font-family:'Allan',sans-serif;
+    }
+    /* h6 uses in the top left card side */
+        h6{
+        font-size:2rem;
+        letter-spacing:0.15rem;
+        color:var(--teva-blue-darker);
+      font-family: 'Gabriela', serif;
+    }
+    p{
+      font-size: 1.5rem;
+    }
+  .back-card-content p span{
+    color:var(--teva-blue-darker);
+    font-style: italic;
+    font-weight:bold;
+}
+    label{
+     font-size:1.5rem;
+    }
+    /* style for the radio btn */
+    .status label{
+      font-size:2rem;
+      color:#000;
+    }
+    ul{
+      list-style-type:none;
+    }
+    li{
+      font-family: 'Raleway', sans-serif;
+      font-size:1.2rem;
+    }
+    input[type=text]{
+      color:var(--teva-blue-darker);
+      font-size: 1.5rem;
+    }
+
+    .summery-status-container ul li{
+      display:inline-block;
+      font-size: 2.5rem;
+      padding:1rem 2.5rem;
+      margin:0 1rem 2rem 1rem;
+      background: #052f5f6c;
+      border-bottom-left-radius:10%;
+      border-bottom-right-radius:10%;
+      border-bottom:0.3rem solid white;
+       align-self:start;
+    
+    }
+  

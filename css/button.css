@@ -1,0 +1,44 @@
+
+.btn{
+font-size:1.5rem;
+border: none;
+cursor: pointer;
+text-transform: uppercase;
+ padding: 0.5rem 1.5rem;
+ border-radius: 10rem;
+ transition: all .2s;
+ background-color:var(--middle-green);
+ color:white;
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    background-color:var(--dark-green);
+  }
+.btn:active:not(.btn-update){
+    transform: translateY(2px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
+    background-color:var(--dark-green);
+  }
+  
+  .btn-update:active{
+  transform: rotateY(180deg);
+}
+
+.back-card-content button:last-of-type:not(ul button){
+   border-radius:0;
+  padding-top:0.5rem;
+}
+button.btn.go-back:hover{
+  font-size:1.5rem;
+transform-origin:bottom;
+transform:scale(1.01,1.1);
+border-radius:5%;
+  box-shadow: 0.3rem 0.7rem 0.6rem rgba(0, 0, 0, 0.2);
+  background-color:var(--dark-green);
+}
+button.btn.go-back:active{
+  transform: translateY(1px);
+  box-shadow: 0.3rem 0.7rem 0.4rem rgba(0, 0, 0, 0.4);
+}
