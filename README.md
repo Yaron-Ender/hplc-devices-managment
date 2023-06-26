@@ -3,6 +3,8 @@
 ## overView
 > HPLC devices managmant App allows to the team leader to organzie and manage the HPLC devices in the laboratory by attach every device to employee and set the status of every device and keep the current setting by save it on **local storage**
   
+## Link
+  [HPLC DEVICES MANAGEMENT](https://hplc-devices-managment.netlify.app) 
 ## Technologies
 + HTML
 + CSS
